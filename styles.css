@@ -34,13 +34,15 @@ header {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 table {
     width: 80%;
     border-collapse: collapse;
     margin: 30px auto;
 }
 
-th, td {
+th,
+td {
     border: 1px solid #ccc;
     padding: 12px;
     text-align: left;
@@ -56,11 +58,13 @@ caption {
     font-weight: bold;
     margin-bottom: 15px;
 }
+
 .topnav a:hover,
 .topnav a.active {
     background-color: #80CBC4;
     color: #333333;
 }
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -72,10 +76,10 @@ caption {
     height: auto;
     border-radius: 8px;
 }
+
 /* Style the footer */
 footer {
     background-color: #D7CCC8;
     text-align: center;
     padding: 10px;
 }
-
