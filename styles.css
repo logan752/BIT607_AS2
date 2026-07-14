@@ -1,3 +1,39 @@
+/* Universal box sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* Set the size of the body */
+body {
+    width: 600px;
+    background-color: #FFF8F0;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #4DB6AC;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #2E7D78;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 table {
     width: 80%;
     border-collapse: collapse;
@@ -20,3 +56,16 @@ caption {
     font-weight: bold;
     margin-bottom: 15px;
 }
+.topnav a:hover,
+.topnav a.active {
+    background-color: #80CBC4;
+    color: #333333;
+}
+
+/* Style the footer */
+footer {
+    background-color: #D7CCC8;
+    text-align: center;
+    padding: 10px;
+}
+
