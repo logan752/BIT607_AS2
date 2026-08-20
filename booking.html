@@ -2,31 +2,42 @@
 <html lang="en">
 
 <head>
+  <!-- Page settings, title and stylesheet -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Snazzy Paws Grooming website">
   <title>Booking | Snazzy Paws Grooming</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <a class="skip-link" href="#main-content">Skip to main content</a>
-  <header class="header">
+  <header class="header w3-container w3-center w3-padding-32">
     <h1>Snazzy Paws Grooming website</h1>
   </header>
-  <nav class="topnav">
-    <a href="index.html">Home</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="services.html">Services</a>
-    <a href="contact.html">Contact</a>
-    <a href="booking.html" class="active">Booking</a>
+  <nav class="topnav w3-bar w3-card" aria-label="Main navigation">
+    <a href="index.html" class="w3-bar-item w3-button w3-mobile">Home</a>
+    <a href="gallery.html" class="w3-bar-item w3-button w3-mobile">Gallery</a>
+    <a href="services.html" class="w3-bar-item w3-button w3-mobile">Services</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-mobile">Contact</a>
+    <a href="privacy_policy.html" class="w3-bar-item w3-button w3-mobile">Privacy Policy</a>
+    <a href="roster_info.html" class="w3-bar-item w3-button w3-mobile">Roster Information</a>
+    <a href="booking.html" class="w3-bar-item w3-button w3-mobile active w3-grey" aria-current="page">Booking</a>
   </nav>
-  <main id="main-content">
-    <iframe
-      src="https://docs.google.com/forms/d/e/1FAIpQLSe0Yj3tUCISACtl4re539JNTmAXdta7OcMhsWgeEO5tbZWN4g/viewform?usp=publish-editor"
-      width="600" height="1200" style="border:0;" loading="lazy"></iframe>
+  <!-- Booking form -->
+  <main id="main-content" class="w3-container w3-content w3-padding-32">
+    <section class="w3-card w3-padding">
+      <h2 class="w3-center">Book an Appointment</h2>
+      <div class="w3-responsive">
+        <iframe class="w3-border-0" title="Snazzy Paws booking form"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSe0Yj3tUCISACtl4re539JNTmAXdta7OcMhsWgeEO5tbZWN4g/viewform?usp=publish-editor"
+          width="100%" height="1200" loading="lazy"></iframe>
+      </div>
+    </section>
   </main>
-  <footer>
-    <p> Snazzy Paws Grooming Opening hours Monday to Saturday, from 9 am to 5 pm </p>
+  <footer class="w3-container w3-center w3-padding-16">
+    <p>Snazzy Paws Grooming Opening hours Monday to Saturday, from 9 am to 5 pm</p>
   </footer>
 </body>
 

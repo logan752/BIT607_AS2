@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Snazzy Paws Grooming website">
-  <title>Gallery | Snazzy Paws Grooming</title>
+  <title>Roster Information | Snazzy Paws Grooming</title>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -18,30 +18,53 @@
   </header>
   <nav class="topnav w3-bar w3-card" aria-label="Main navigation">
     <a href="index.html" class="w3-bar-item w3-button w3-mobile">Home</a>
-    <a href="gallery.html" class="w3-bar-item w3-button w3-mobile active w3-grey">Gallery</a>
+    <a href="gallery.html" class="w3-bar-item w3-button w3-mobile">Gallery</a>
     <a href="services.html" class="w3-bar-item w3-button w3-mobile">Services</a>
     <a href="contact.html" class="w3-bar-item w3-button w3-mobile">Contact</a>
     <a href="privacy_policy.html" class="w3-bar-item w3-button w3-mobile">Privacy Policy</a>
-    <a href="roster_info.html" class="w3-bar-item w3-button w3-mobile">Roster Information</a>
+    <a href="roster_info.html" class="w3-bar-item w3-button w3-mobile active w3-grey" aria-current="page">Roster
+      Information</a>
     <a href="booking.html" class="w3-bar-item w3-button w3-mobile">Booking</a>
   </nav>
-  <!-- Gallery -->
   <main id="main-content" class="w3-container w3-content w3-padding-32">
-    <h2 class="w3-center">Gallery</h2>
-    <div class="gallery w3-row-padding">
-      <div class="w3-col s12 m6 l6 w3-margin-bottom">
-        <img class="w3-image w3-round w3-card" src="images/dog1-before.png" alt="Dog before grooming">
+    <section class="w3-card w3-padding">
+
+      <h2 class="w3-center">Roster Information</h2>
+
+      <p>Here is the information about our grooming staff and their appointments:</p>
+
+      <div class="w3-responsive">
+        <table class="w3-table-all w3-hoverable">
+          <tr>
+            <th>Staff Member</th>
+            <th>Position</th>
+            <th>Appointment</th>
+            <th>Time</th>
+          </tr>
+
+          <tr>
+            <td>John Doe</td>
+            <td>Senior Groomer</td>
+            <td>Dog Grooming</td>
+            <td>9:00 AM</td>
+          </tr>
+
+          <tr>
+            <td>Jane Smith</td>
+            <td>Assistant Groomer</td>
+            <td>Nail Clipping</td>
+            <td>11:00 AM</td>
+          </tr>
+
+          <tr>
+            <td>Mike Johnson</td>
+            <td>Grooming Assistant</td>
+            <td>Dog Wash</td>
+            <td>2:00 PM</td>
+          </tr>
+        </table>
       </div>
-      <div class="w3-col s12 m6 l6 w3-margin-bottom">
-        <img class="w3-image w3-round w3-card" src="images/dog1-after.png" alt="Dog after grooming">
-      </div>
-      <div class="w3-col s12 m6 l6 w3-margin-bottom">
-        <img class="w3-image w3-round w3-card" src="images/dog2-before.png" alt="Second dog before grooming">
-      </div>
-      <div class="w3-col s12 m6 l6 w3-margin-bottom">
-        <img class="w3-image w3-round w3-card" src="images/dog2-after.png" alt="Second dog after grooming">
-      </div>
-    </div>
+    </section>
   </main>
   <footer class="w3-container w3-center w3-padding-16">
     <p>Snazzy Paws Grooming Opening hours Monday to Saturday, from 9 am to 5 pm</p>

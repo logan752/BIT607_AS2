@@ -5,7 +5,7 @@
 
 /* Set the size of the body */
 body {
-    width: 600px;
+    width: 100%;
     background-color: #FFF8F0;
     color: #333333;
     font-family: Arial, sans-serif;
@@ -21,22 +21,23 @@ header {
 
 /* Style the top navigation bar */
 .topnav {
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     background-color: #2E7D78;
 }
 
 /* Style the topnav links */
 .topnav a {
-    float: left;
+    float: none;
     display: block;
     color: white;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 table {
-    width: 80%;
+    width: 100%;
     border-collapse: collapse;
     margin: 30px auto;
 }
@@ -63,12 +64,6 @@ caption {
 .topnav a.active {
     background-color: #80CBC4;
     color: #333333;
-}
-
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
 }
 
 .gallery img {
